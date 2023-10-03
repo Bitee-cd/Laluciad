@@ -1,0 +1,29 @@
+<div class="slider">
+  <div class="flex overflow-x-hidden" #carousel>
+    <div
+      class="basis-[100%] flex-grow-0 flex-shrink-0"
+      *ngFor="let slide of slides; trackBy: trackById"
+    >
+      <div
+        class="duration-500 bg-cover h-[400px] md:h-[500px] lg:h-[600px] w-full"
+        [ngStyle]="{
+          'background-image': 'url(' + slide.url + ')'
+        }"
+      ></div>
+    </div>
+  </div>
+
+  <!-- <div>
+    <div (click)="onScrollLeft()" class="left arrow">&#8249;</div>
+    <div (click)="onScrollRight()" class="right arrow">&#8250;</div>
+  </div> -->
+  <div class="dotsContainer mt-3">
+    <div *ngFor="let slide of slides; let slideIndex = index">
+      <div
+        (click)="goToSlide(slideIndex)"
+        [ngClass]="{ active: slideIndex === currentIndex }"
+        class="dot rounded-[5px] h-[2px] lg:h-[4px] w-[15px] md:w-[20px] lg:w-[30px] bg-[#D9D9D9]"
+      ></div>
+    </div>
+  </div>
+</div>
