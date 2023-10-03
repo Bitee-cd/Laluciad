@@ -25,7 +25,7 @@ export const MANAGEMENT_TEAM: TeamMember[] = [
     bio: 'He is a computer scientist and industrial maintenance engineer, he has over 10 years of experience in business development and restructuring, finance and foreign exchange business, manufacturing and trade, branding and procurement, real estate and logistics business.',
     type: 'management',
     imgUrl: '/assets/images/icons/avatar.png',
-    linkedinUrl: '',
+    linkedinUrl: 'https://www.linkedin.com/in/olasegun-dada-07b81a6b/',
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ export const MANAGEMENT_TEAM: TeamMember[] = [
     bio: 'He holds a degree in Civil and Environmental Engineering from City University of Tripoli, and has further honed his skills through a specialized  degree in heating and plumbing double system from Technical Institution Tripoli. He joined La Ciudad Construction in 2020 as project supervisor.',
     type: 'management',
     imgUrl: '/assets/images/icons/avatar.png',
-    linkedinUrl: '',
+    linkedinUrl: 'https://www.linkedin.com/in/yasser-mustapha-9aa57b1aa/',
   },
   {
     id: 6,
