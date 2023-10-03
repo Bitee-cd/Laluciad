@@ -6,8 +6,8 @@
     <!-- experience quality  -->
     <div class="mt-6 mb-[71px] container-view-port__wrapper">
       <h1 class="text-primary mb-4" data-aos="fade-up" data-aos-offset="0">
-        Experience Quality Construction Services <br class="hidden md:block" />
-        with Us
+        Welcome to La Ciudad Construction – Building Dreams,<br />
+        Creating Legacies
       </h1>
       <p
         class="mb-[71px]"
@@ -15,10 +15,11 @@
         data-aos-delay="300"
         data-aos-offset="0"
       >
-        We are a reputable and reliable construction company with years of<br
+        At La Ciudad, we don't just build structures; we craft dreams and
+        transform visions into reality. As a family-run construction company, we
+        bring decades of expertise, passion, and innovation to every project.<br
           class="hidden md:block"
         />
-        experience in the industry.
       </p>
     </div>
     <!-- about  -->
@@ -63,14 +64,14 @@
     <!-- Guarantee  -->
     <div class="container-view-port__wrapper">
       <h2 class="text-primary text-center mb-[72px]" data-aos="fade-in">
-        We Guarantee our Clients
+        Why Choose La Ciudad?
       </h2>
       <!-- services  -->
       <div
         *ngFor="let service of services; let i = index"
         [ngClass]="{
-          'lg:flex-row-reverse': isEvenIndex(i),
-          'lg:flex-row': !isEvenIndex(i)
+          'lg:flex-row-reverse': !isEvenIndex(i),
+          'lg:flex-row': isEvenIndex(i)
         }"
         class="flex flex-col app-home-services-wrapper"
       >
@@ -98,7 +99,7 @@
 
       <!-- what we do  -->
       <div class="container-view-port__wrapper">
-        <h2 class="text-primary text-center mb-10">What We Do</h2>
+        <h2 class="text-primary mb-10">Explore Our Services</h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <app-business-feature-card
             *ngFor="let feature of businessFeatures; trackBy: trackById"

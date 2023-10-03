@@ -7,20 +7,20 @@ export interface Service {
 export const SERVICES: Service[] = [
   {
     imgSrc: '/assets/images/home-construction.svg',
-    title: 'Quality Construction',
+    title: 'Experience Matters',
     description:
-      'We offer top-quality construction services from design to execution, driven by a productive team.',
+      'With a legacy built over years, we stand as a beacon of quality in the construction industry.',
   },
   {
     imgSrc: '/assets/images/home-technology.svg',
-    title: 'Best in class Technology',
+    title: 'Full-Service Excellence',
     description:
-      'We welcome new and cutting-edge technology, which includes integrating 3D modeling software to speed up planning and design, drones for site inspection and tracking, and building information modeling to foster better teamwork.',
+      'From architectural design to project management, we offer end-to-end solutions for diverse construction needs',
   },
   {
     imgSrc: '/assets/images/home-clients.svg',
-    title: 'Dedication to Clients',
+    title: 'Global Standards',
     description:
-      'As a full-service contractor specializing in general construction, our goal is to exceed client expectations with quality, timely services that meet their specifications.',
+      'Our commitment to excellence extends to incorporating the latest technology, including 3D modelling, drones, and building information modelling.',
   },
 ];
