@@ -63,4 +63,13 @@ export const MANAGEMENT_TEAM: TeamMember[] = [
     imgUrl: '/assets/images/icons/avatar.png',
     linkedinUrl: '',
   },
+  {
+    id: 7,
+    name: 'Precious Eke ',
+    position: 'Product Manager',
+    bio: 'she is an accomplished product manager,her unique background and skillset makes her an asset, she earned a degree  banking and finance from the prestigious rivers state university and a certification in Data Analytics from google',
+    type: 'management',
+    imgUrl: '/assets/images/icons/avatar.png',
+    linkedinUrl: 'https://www.linkedin.com/in/precious-eke-1a41691a3/',
+  },
 ];

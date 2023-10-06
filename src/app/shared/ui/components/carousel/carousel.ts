@@ -11,6 +11,6 @@ export const carousel = [
     id: 2,
   },
   { title: 'Slow', url: '/assets/images/carousel/slow.jpeg', id: 3 },
-  { title: 'Vault', url: '/assets/images/carousel/vault.jpeg', id: 4 },
+  { title: 'Vault', url: '/assets/images/carousel/vault.png', id: 4 },
   { title: 'Ziya', url: '/assets/images/carousel/ziya.jpeg', id: 5 },
 ];

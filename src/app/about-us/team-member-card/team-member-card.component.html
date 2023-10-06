@@ -15,7 +15,11 @@
       data-aos-delay="200"
     >
       <div>
-        <a href="{{ teamMember.linkedinUrl }}" target="_blank">
+        <a
+          *ngIf="teamMember.linkedinUrl !== ''"
+          href="{{ teamMember.linkedinUrl }}"
+          target="_blank"
+        >
           <img
             src="/assets/images/icons/linkedin-dark.svg"
             alt="linkedin logo"
