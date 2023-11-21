@@ -52,9 +52,11 @@
   </div>
 
   <div class="flex flex-col lg:order-4 lg:basis-[25%]">
-    <p class="text-center lg:text-left footer__info footer__info-email">
-      info@laciudadglobal.com.
-    </p>
+    <a href="mailto: {{ email }}">
+      <p class="text-center lg:text-left footer__info footer__info-email">
+        {{ email }}
+      </p>
+    </a>
   </div>
 
   <div class="footer__socials lg:order-5 lg:basis-[75%]">

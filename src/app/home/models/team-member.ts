@@ -15,7 +15,7 @@ export const MANAGEMENT_TEAM: TeamMember[] = [
     position: 'Chief Executive Officer',
     bio: 'With a demonstrated track record in construction and electrical engineering and also a seasoned accountant and finance administrator. He has over a decade experience in international relations and affairs, negotiation, politics, project management, facility management, business development, real estate, customer service and entrepreneurship.',
     type: 'management',
-    imgUrl: '/assets/images/icons/avatar.png',
+    imgUrl: '/assets/images/team/john_dada.png',
     linkedinUrl: 'https://www.linkedin.com/in/john-dada-0169a912a/',
   },
   {
@@ -24,7 +24,7 @@ export const MANAGEMENT_TEAM: TeamMember[] = [
     position: 'Chief Operating Officer',
     bio: 'He is a computer scientist and industrial maintenance engineer, he has over 10 years of experience in business development and restructuring, finance and foreign exchange business, manufacturing and trade, branding and procurement, real estate and logistics business.',
     type: 'management',
-    imgUrl: '/assets/images/icons/avatar.png',
+    imgUrl: '/assets/images/team/segun_dada.png',
     linkedinUrl: 'https://www.linkedin.com/in/olasegun-dada-07b81a6b/',
   },
   {
@@ -33,7 +33,7 @@ export const MANAGEMENT_TEAM: TeamMember[] = [
     position: 'General Manager',
     bio: 'He is a senior banking and finance administrator and a corporate administration and registry management officer. He has garnered a decade wealth of experience in branding and procurement, corporate admiration and business operation and sales and marketing.',
     type: 'management',
-    imgUrl: '/assets/images/icons/avatar.png',
+    imgUrl: '/assets/images/team/jeffrey_oriteseje.png',
     linkedinUrl: 'https://www.linkedin.com/in/oritseje-jeffrey-a5a866163/',
   },
   {
@@ -42,7 +42,7 @@ export const MANAGEMENT_TEAM: TeamMember[] = [
     position: 'General Secretary',
     bio: 'She is a legal practitioner and notary public with over fifteen years’ experience in corporate and commercial law, family and property law, media and entertainment law, oil and gas law, and corporate governance / compliance matters.',
     type: 'management',
-    imgUrl: '/assets/images/icons/avatar.png',
+    imgUrl: '/assets/images/team/kehinde_toyo.png',
     linkedinUrl: 'https://www.linkedin.com/in/kehinde-toyo-755a7b3a/',
   },
   {
@@ -60,7 +60,7 @@ export const MANAGEMENT_TEAM: TeamMember[] = [
     position: 'Control Engineer',
     bio: 'He is a highly experienced control engineer with experience spanning up to 15 years specializing in designing and implementing efficient control system to optimize performance , he has worked on numerous project from industrial control system to various forms of electrical engineering projects in the construction industry.',
     type: 'management',
-    imgUrl: '/assets/images/icons/avatar.png',
+    imgUrl: '/assets/images/team/wale_dada.png',
     linkedinUrl: '',
   },
   {
@@ -69,7 +69,7 @@ export const MANAGEMENT_TEAM: TeamMember[] = [
     position: 'Product Manager',
     bio: 'she is an accomplished product manager,her unique background and skillset makes her an asset, she earned a degree  banking and finance from the prestigious rivers state university and a certification in Data Analytics from google',
     type: 'management',
-    imgUrl: '/assets/images/icons/avatar.png',
+    imgUrl: '/assets/images/team/precious_eke.png',
     linkedinUrl: 'https://www.linkedin.com/in/precious-eke-1a41691a3/',
   },
 ];
